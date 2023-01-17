@@ -1,0 +1,15 @@
+{% include "header.html" %}
+
+{% block content %}
+    <div class="entire-form">
+        <h1 id="form-title">Top Secret Morse Code Converter</h1>
+
+        <form action="{{url_for('morse_coded_message')}}" method="post">
+            <input id="input-message-box" type="text" placeholder="Top Secret Message" name="message" required>
+            <button id="encrypt-button" type="submit" class="btn btn-dark btn-lg">Encrypt</button>
+        </form>
+    </div>
+{% endblock %}
+
+{% include "footer.html" %}
+

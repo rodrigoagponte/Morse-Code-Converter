@@ -1,0 +1,64 @@
+
+/* header.html */
+html {
+    height: 100%;
+    text-align:center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.navbar {
+    background-color: black;
+}
+
+#navbar-title {
+    margin-left: 3%;
+}
+
+/* index.html */
+
+.entire-form {
+    margin-top: 70px;
+}
+
+#form-title {
+    font-family: 'Monteserrat', sans-serif;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+
+#input-message-box {
+    margin-left: 80px;
+}
+
+#encrypt-button {
+    position: relative;
+    top: 4.5rem;
+    right: 9rem;
+}
+
+/* result.html */
+
+#morse-coded-message {
+    font-size: 50px;
+    margin: 20px 20px 0 0;
+}
+
+/* footer.html */
+
+#footer {
+    background-color: black;
+    color: white;
+    margin-top: auto;
+}
+
+.social-media-icons {
+    color: white;
+    margin: 20px 15px;
+    font-size: 30px;
+}
+
